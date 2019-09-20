@@ -36,7 +36,7 @@ for i in range(len(clean_pic_list)):
     # RGB color data is saved for future export
     pixel_data[clean_pic_list[i]] = pic_color
     # area is named size here, it's also saved for future renaming
-    size[i] = pic_color.shape[0] * pic_color.shape[1]
+    size.append(pic_color.shape[0] * pic_color.shape[1])
     # flatten pixels for dominant color calculation
     pic_color_reshape = pic_color.reshape((size[i], 3))
     dominant_color = get_dominant_color(pic_color_reshape, k = 3)
