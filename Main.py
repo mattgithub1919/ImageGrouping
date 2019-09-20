@@ -39,7 +39,7 @@ for i in range(len(clean_pic_list)):
     size.append(pic_color.shape[0] * pic_color.shape[1])
     # flatten pixels for dominant color calculation
     pic_color_reshape = pic_color.reshape((size[i], 3))
-    dominant_color = get_dominant_color(pic_color_reshape, k = 3)
+    dominant_color = get_dominant_color(pic_color_reshape, k = 4)
     category = get_category(dominant_color)
     # pair image name and area with relevant category
     image_group[category].update({clean_pic_list[i]:size[i]})
