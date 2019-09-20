@@ -13,8 +13,9 @@ def get_dominant_color(image, k=1):
     dominant_color_2 = clt.cluster_centers_[label_counts.most_common(2)[1][0]]
     dominant_color_3 = clt.cluster_centers_[label_counts.most_common(3)[2][0]]
     dominant_color_4 = [-1, -1, -1, -1]
-    for i in [dominant_color_1, dominant_color_2, dominant_color_3, dominant_color_4]:
-        if (len(set(i[:3])) != 1) or (i[0] < 0):
-            return i
+    for item in [dominant_color_1, dominant_color_2, dominant_color_3, dominant_color_4]:
+        item = [int(i) for i in item]
+        if (len(set(item[:3])) != 1) or (item[0] < 0):
+            return item
         else:
             continue
