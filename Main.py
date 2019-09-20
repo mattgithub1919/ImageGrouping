@@ -52,7 +52,7 @@ for category in image_group.keys():
                          key=lambda x: x[1], reverse = False)
     # rename each sorted image
     for i in range(len(sorted_list)):
-        pic_rename = str(i+1) + '_' + str(size[i]) + '.jpeg'
+        pic_rename = str(i+1) + '_' + str(sorted_list[i][1]) + '.jpeg'
         save_path = os.path.join(filespath, category, pic_rename)
         # sorted_list[i][0] is image's original name which will \\
         # help find its RGB data in pixel_data
