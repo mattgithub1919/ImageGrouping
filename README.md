@@ -29,14 +29,14 @@ This serves as a code challenge of FAIMDATA.com
 ## Limitations
 Even though the programmer has tried its best, there are still a few limitations:
 
-1. The variable pixel_data is saved until the program ends and that might take a lot of storage, especially when the size and number of the images increase. 
+1. The variable _pixel_data_ is saved until the program ends and that takes up storage, especially when the size and number of the images increase. 
     *  Improvement: one possible solution is to export image with original filename and use dictionary to pair its original name and final sorted name. Then change name in the final step.<br />
 
-2. The program is very contrained to the code challenge and need to make changes to generalize to other image grouping tasks. <br />
+2. The program is made for the code challenge and need to make changes to generalize to other image grouping tasks. <br />
 
-3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py is other Operation Systems are used than Mac and Windows.The user cannot add any additional file in the folder.<br />
+3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py if other Operation System is used.The user cannot add any additional file in the folder.<br />
 
-4. This program is not very encapsulated. Further encapsulation will allow the data structure implementation to change while the program is not disturbed. <br />
+4. This program is not well encapsulated. Further encapsulation will allow the data structure implementation to change while the program is not disturbed. <br />
 
 5. A few optimization tips:
     *  Faster APIs may be used to replace current code. 
