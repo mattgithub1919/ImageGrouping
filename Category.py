@@ -1,4 +1,5 @@
 # get the category of dominant color
+import numpy as np
 
 def get_category(dominant_color):
     categories = ['red', 'green', 'blue', 'other']
