@@ -3,9 +3,11 @@ This serves as a code challenge of FAIMDATA.com
   
 ## Instructions
 ### Please follow below steps to run this program.
-1. Download the zipped images, unzip the images and copy the folder path. Make sure there's no additional files the first time the program is run. Any non-image file in the folder will cause OSError during read_image function running. 
+1. Download the zipped images, unzip the images and copy the folder path. Make sure there's no additional files the first time the program is run. 
+* Any non-image file in the folder will cause "OSError" during read_image function running. 
 * However, there's no need to delete program-created folders if the program is run more than once. 
-2. Download all python program files into a different folder. 
+* An example of copied image folder path could be, /Users/yang/Desktop/images
+2. Download the zipped files, unzip and save into a different folder from the image folder. 
 3. Run Main.py and paste above image folder path when requested. Leave the program running.
 * Python libraries mentioned below should be installed before running this program.
 4. Categoried images will be sorted, renamed and exported to relevant folders under the image folder
