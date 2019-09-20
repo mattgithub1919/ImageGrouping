@@ -14,7 +14,7 @@ https://adamspannbauer.github.io/2018/03/02/app-icon-dominant-colors/ <br />
 https://stackoverflow.com/questions/50331463/convert-rgba-to-rgb-in-python <br />
 https://thomas-cokelaer.info/blog/2017/12/how-to-sort-a-dictionary-by-values-in-python/ <br />
 
-2. Here's a list of the python 3 libraries used in this program:
+2. Here's a list of the python 3 libraries used in this program: <br />
   os, <br />
   shutil, <br />
   collections,<br />
