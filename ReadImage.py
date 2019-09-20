@@ -1,6 +1,9 @@
 # read image
 # 1. '.png' format has 4(RGBA) columns of color data and \\
 #   need to change to 3 (RGB)
+import os
+import numpy as np
+from PIL import Image
 
 def read_image(image_filename):
     global filespath
