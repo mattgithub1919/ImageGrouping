@@ -34,7 +34,7 @@ Even though the programmer has tried its best, there are still a few limitations
 
 2. The program is made for the code challenge and need to make changes to generalize to other image grouping tasks. <br />
 
-3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py if other Operation System is used.The user cannot add any additional file in the folder.<br />
+3. The program will clean _'.DS_Store'_ in Mac and _'Thumbs.db'_ in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py if other Operation System is used.The user cannot add any additional file in the folder.<br />
 
 4. This program is not well encapsulated. Further encapsulation will allow the data structure implementation to change while the program is not disturbed. <br />
 
