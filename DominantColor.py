@@ -15,7 +15,9 @@ def get_dominant_color(image, k=1):
     dominant_color_4 = [-1, -1, -1, -1]
     for item in [dominant_color_1, dominant_color_2, dominant_color_3, dominant_color_4]:
         item = [int(i) for i in item]
-        if (len(set(item[:3])) != 1) or (item[0] < 0):
+        value_diff = (abs(item[0]-item[1]) > 10) and ((abs(item[0]-item[2]) > 10)) \
+                     and ((abs(item[1]-item[2]) > 10))
+        if value_diff or (item[0] < 0):
             return item
         else:
             continue
