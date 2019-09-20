@@ -8,7 +8,7 @@ This serves as a code challenge of FAIMDATA.com
     * However, there's no need to delete program-created folders if the program is run more than once. 
     * An example of copied image folder path could be, /Users/yang/Desktop/images
 2. Download the zipped files, unzip and save into a different folder from the image folder. 
-3. Run Main.py and paste above image folder path when requested. Leave the program running.
+3. Run **Main.py** and paste above image folder path when requested. Leave the program running.
     * Python libraries mentioned below should be installed before running this program.
 4. Categoried images will be sorted, renamed and exported to relevant folders under the image folder
 
