@@ -9,8 +9,11 @@ Please follow below steps to run this program.
 4. Categoried images will be sorted, renamed and exported to relevant folders under the image folder
 
 ## Resources, libraries used
-1. I would like to thank the author of the article below as it I learned the algorithm to calculate dominant color. 
+1. Online resources below give me hints and I would like to mention them and thank their authors.
 https://adamspannbauer.github.io/2018/03/02/app-icon-dominant-colors/
+https://stackoverflow.com/questions/50331463/convert-rgba-to-rgb-in-python
+https://thomas-cokelaer.info/blog/2017/12/how-to-sort-a-dictionary-by-values-in-python/
+
 2. Here's a list of the python 3 libraries used in this program:
   os, 
   shutil, 
@@ -25,3 +28,7 @@ Even though the programmer has tried its best, there are still a few limitations
 2. The program is very contrained to the code challenge and cannot generalize to other image grouping tasks. 
 3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py is other Operation Systems are used than Mac and Windows.
 4. Some functions can be optimized. Better APIs may exist. 
+5. It might be possible to use some matrix to replace the loops. That will save time and space. 
+5. I can do a time and space complexity analysis here.
+6. A proposal to remove pixel_data: dynamic sort. may not be possible.
+7. Can make it more encapsulated. Even change data structure implementation, the operation won't change. 
