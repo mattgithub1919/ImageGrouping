@@ -6,7 +6,6 @@ import numpy as np
 from PIL import Image
 
 def read_image(filespath, image_filename):
-    global filespath
     
     image_path = os.path.join(filespath, image_filename)
     # RGBA data obtained
