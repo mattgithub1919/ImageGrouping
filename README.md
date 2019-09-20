@@ -30,5 +30,5 @@ Even though the programmer has tried its best, there are still a few limitations
 3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py is other Operation Systems are used than Mac and Windows.The user cannot add any additional file in the folder. 
 4. A few optimization tips:
   *  Faster APIs may be used to replace current code. 
-  *  It might be possible to use some matrix to replace the loops. That will save time and space. 
+  *  It might be possible to use some matrix to replace the loops. That will save time and space. <br />
 5.This program is not very encapsulated. Further encapsulation will allow the data structure implementation to change while the program is not disturbed. 
