@@ -48,7 +48,8 @@ for i in range(len(clean_pic_list)):
 ## sort, rename and export images
 for category in image_group.keys():
     # sort each category based on the dictionary values, namely area/size
-    sorted_list = sorted(image_group[category].items(), key=lambda (k, v): v, reverse = False)
+    sorted_list = sorted(image_group[category].items(),\ 
+                         key=lambda x: x[1], reverse = False)
     # rename each sorted image
     for i in range(len(sorted_list)):
         pic_rename = str(i+1) + '_' + str(size[i]) + '.jpeg'
