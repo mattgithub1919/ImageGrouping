@@ -38,7 +38,7 @@ for i in range(len(clean_pic_list)):
     # area is named size here, it's also saved for future renaming
     size.append(pic_color.shape[0] * pic_color.shape[1])
     # flatten pixels for dominant color calculation
-    pic_color_reshape = pic_color.reshape((size[i], 3))
+    pic_color_reshape = pic_color.reshape((size[i], 4))
     dominant_color = get_dominant_color(pic_color_reshape, k = 4)
     category = get_category(dominant_color)
     # pair image name and area with relevant category
@@ -52,7 +52,7 @@ for category in image_group.keys():
                          key=lambda x: x[1], reverse = False)
     # rename each sorted image
     for i in range(len(sorted_list)):
-        pic_rename = str(i+1) + '_' + str(sorted_list[i][1]) + '.jpeg'
+        pic_rename = str(i+1) + '_' + str(sorted_list[i][1]) + '.png'
         save_path = os.path.join(filespath, category, pic_rename)
         # sorted_list[i][0] is image's original name which will \\
         # help find its RGB data in pixel_data
