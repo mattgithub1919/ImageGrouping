@@ -7,6 +7,7 @@ This serves as a code challenge of FAIMDATA.com
 * However, there's no need to delete program-created folders if the program is run more than once. 
 2. Download all python program files into a different folder. 
 3. Run Main.py and paste above image folder path when requested. Leave the program running.
+* Python libraries mentioned below should be installed before running this program.
 4. Categoried images will be sorted, renamed and exported to relevant folders under the image folder
 
 ## Resources, libraries used
@@ -29,7 +30,7 @@ Even though the programmer has tried its best, there are still a few limitations
 1. The variable pixel_data is saved until the program ends and that might take a lot of storage, especially when the size and number of the images increase. 
   *  Improvement: one possible solution might be export image with original filename and use dictionary to pair its original name and final sorted name. Then change name in the final step.<br />
 
-2. The program is very contrained to the code challenge and cannot generalize to other image grouping tasks. <br />
+2. The program is very contrained to the code challenge and need to make changes to generalize to other image grouping tasks. <br />
 
 3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py is other Operation Systems are used than Mac and Windows.The user cannot add any additional file in the folder.<br />
 
