@@ -32,7 +32,7 @@ sorted_list = []
 
 ## read image into customized data structures, namely pixel_data and image_group
 for i in range(len(clean_pic_list)):
-    pic_color = read_image(clean_pic_list[i])
+    pic_color = read_image(filespath, clean_pic_list[i])
     # RGB color data is saved for future export
     pixel_data[clean_pic_list[i]] = pic_color
     # area is named size here, it's also saved for future renaming
