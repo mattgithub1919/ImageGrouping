@@ -25,11 +25,11 @@ https://thomas-cokelaer.info/blog/2017/12/how-to-sort-a-dictionary-by-values-in-
 ## Limitations
 Even though the programmer has tried its best, there are still a few limitations <br />
 1. The variable pixel_data is saved until the program ends and that might take a lot of storage, especially when the size and number of the images increase. 
-  *  Improvement: one possible solution might be export image with original filename and use dictionary to pair its original name and final sorted name. Then change name in the final step.
-2. The program is very contrained to the code challenge and cannot generalize to other image grouping tasks. 
-3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py is other Operation Systems are used than Mac and Windows.The user cannot add any additional file in the folder.
-4.This program is not very encapsulated. Further encapsulation will allow the data structure implementation to change while the program is not disturbed. 
-5. A few optimization tips:
+  *  Improvement: one possible solution might be export image with original filename and use dictionary to pair its original name and final sorted name. Then change name in the final step.<br />
+2. The program is very contrained to the code challenge and cannot generalize to other image grouping tasks. <br />
+3. The program will clean '.DS_Store' in Mac and 'Thumbs.db' in Windows automatically. The user may need to include relevant system file name in DeleteHidden.py is other Operation Systems are used than Mac and Windows.The user cannot add any additional file in the folder.<br />
+4.This program is not very encapsulated. Further encapsulation will allow the data structure implementation to change while the program is not disturbed. <br />
+5.A few optimization tips:
   *  Faster APIs may be used to replace current code. 
-  *  It might be possible to use some matrix to replace the loops. That will save time and space. <br />
+  *  It might be possible to use some matrix to replace the loops. That will save time and space.
 
