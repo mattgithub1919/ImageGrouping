@@ -1,8 +1,9 @@
 # it returns the RGB value of the dominant color. if its first
 # and second dominant colors are greyscale, return [-1, -1, -1, -1]
 
-# Please note the default k is set to 1, need to change the value
-# during function call
+# Please note the default k is set to 1, need to change the value \\
+# when calling the function. Based on the author's experience, \\
+# either k =3 or k = 4 is OK.
 
 def get_dominant_color(image, k=1):
     clt = KMeans(n_clusters = k)
