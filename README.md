@@ -23,7 +23,7 @@ https://thomas-cokelaer.info/blog/2017/12/how-to-sort-a-dictionary-by-values-in-
   sklearn = 0.20.3, <br />
 
 ## Limitations
-Even though the programmer has tried its best, there are still a few limitations <br />
+Even though the programmer has tried its best, there are still a few limitations:
 
 1. The variable pixel_data is saved until the program ends and that might take a lot of storage, especially when the size and number of the images increase. 
   *  Improvement: one possible solution might be export image with original filename and use dictionary to pair its original name and final sorted name. Then change name in the final step.<br />
