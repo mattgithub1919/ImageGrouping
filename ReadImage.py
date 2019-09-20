@@ -5,7 +5,7 @@ import os
 import numpy as np
 from PIL import Image
 
-def read_image(image_filename):
+def read_image(filespath, image_filename):
     global filespath
     
     image_path = os.path.join(filespath, image_filename)
