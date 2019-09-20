@@ -5,6 +5,9 @@
 # when calling the function. Based on the author's experience, \\
 # either k =3 or k = 4 is OK.
 
+from sklearn.cluster import KMeans
+from collections import Counter
+
 def get_dominant_color(image, k=1):
     clt = KMeans(n_clusters = k)
     labels = clt.fit_predict(image)
