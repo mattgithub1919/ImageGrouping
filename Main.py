@@ -44,6 +44,7 @@ for i in range(len(clean_pic_list)):
     # pair image name and area with relevant category
     image_group[category].update({clean_pic_list[i]:size[i]})
 
+print('Image reading and categorization are done!')
 
 ## sort, rename and export images
 for category in image_group.keys():
@@ -60,4 +61,4 @@ for category in image_group.keys():
         im = Image.fromarray(image_pixel)
         im.save(save_path)
 
-
+print('Image sorting, renaming and exporting are done!')
