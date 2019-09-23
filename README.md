@@ -1,5 +1,5 @@
 # ImageGrouping
-This serves as a code challenge of FAIMDATA.com
+Given 50 images of various dimensions, the main goal is to classify images by dominant color into read, green, blue and other groups. Images need to be sorted, exported and renamed based on their rank.
   
 ## Instructions
 ### Please follow below steps to run this program.
